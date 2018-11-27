@@ -1,8 +1,8 @@
-## NumberPyramid.java - Method
+## numberPyramid.java - Method
 
 ```java
-// NumberPyramid.java
-public static void NumberPyramid(int x) {
+// numberPyramid.java
+public static void numberPyramid(int x) {
   for (int i = 1; i <= x; i++) {
     for (int j = 0; j <= x - i; j++)
       System.out.print(" ");
