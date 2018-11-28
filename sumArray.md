@@ -12,7 +12,7 @@ public static double sumArray(double[] nums) {
 **Method parameters**
 <br>Array of doubles to sum &mdash; `nums` as `double[]`
 
-**Output**
+**Return value**
 <br>With parameters `new double[]{1.0,2.5,3.2,6.3}`
 ```
 13.0
