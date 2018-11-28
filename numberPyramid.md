@@ -13,6 +13,9 @@ public static void numberPyramid(int x) {
 }
 ```
 
+**Purpose**
+<br>This method prints a given number of lines each containing the row's number, row number of times, following a string of spaces the length of number of rows minus the row number (making them appear right-aligned).
+
 **Method parameters**
 <br>Number of rows to produce &mdash; `x` as `int`
 
