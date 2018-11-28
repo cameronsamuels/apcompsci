@@ -9,6 +9,9 @@ public static double sumArray(double[] nums) {
 }
 ```
 
+**Purpose**
+<br>This method returns the sum of the values in a double array
+
 **Method parameters**
 <br>Array of doubles to sum &mdash; `nums` as `double[]`
 
