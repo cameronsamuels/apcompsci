@@ -12,7 +12,7 @@ public static double averageValues(double[] nums) {
 **Method parameters**
 <br>Numbers to find the average of &mdash; `nums` as `double[]`
 
-**Output**
+**Return value**
 <br>With parameters `nums = new double[]{3.0,4.0,4.5,5.0}`
 ```
 4.125
