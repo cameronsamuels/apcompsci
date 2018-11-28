@@ -11,6 +11,9 @@ public static String[] sortDescending(String[] array) {
 }
 ```
 
+**Purpose**
+<br>This method returns the given array in descending order lexicographically
+
 **Method parameters**
 <br>Array to sort &mdash; `array` as `String[]`
 
