@@ -9,6 +9,9 @@ public static double averageValues(double[] nums) {
 }
 ```
 
+**Purpose**
+<br>This method returns the average of the doubles given
+
 **Method parameters**
 <br>Numbers to find the average of &mdash; `nums` as `double[]`
 

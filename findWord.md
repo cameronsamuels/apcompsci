@@ -9,6 +9,9 @@ public static int findWord(String[] words, String word) {
 }
 ```
 
+**Purpose**
+<br>This method returns the index of a given word in a given array, or if the word is not found, `-1`
+
 **Method parameters**
 <br>The words to look through &mdash; `words` as `String[]`
 <br>The word to look for &mdash; `word` as `String`
