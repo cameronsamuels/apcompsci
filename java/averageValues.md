@@ -16,7 +16,8 @@ public static double averageValues(double[] nums) {
 <br>Numbers to find the average of &mdash; `nums` as `double[]`
 
 **Return value**
-<br>With parameters `nums = new double[]{3.0,4.0,4.5,5.0}`
-```
-4.125
+```java
+averageValues([2, 2, 4, 4]) → 3
+averageValues([1, 2, 3]) → 2
+averageValues([2, 5, 5, 8]) → 5
 ```
