@@ -19,7 +19,6 @@ public static int[][] replaceInMatrix(int[][] matrix, int a, int b) {
 <br>The value that the replaced values will be &mdash; `b` as `int`
 
 **Return value**
-<br>With parameters `matrix = {{5,4,4,5},{3,4,6,8},{4,4,6,4}}; a = 4; b = 0"`
 ```
-{{5,0,0,5},{3,0,6,8},{0,0,6,0}}
+replaceInMatrix([[5,4,4,5], [3,4,6,8], [4,4,6,4]]) → [[5,0,0,5], [3,0,6,8], [0,0,6,0]]
 ```
