@@ -2,8 +2,7 @@
 
 ```java
 import java.util.*;
-public class MrPresident
-{
+public class MrPresident {
   public static String[] presidents = new String[]{"George Washington","John Adams","Thomas Jefferson","James Madison",
     "James Monroe","John Quincy Adams","Andrew Jackson","Martin van Buren","William Henry Harrison","John Tyler",
     "James Polk","Zachary Taylor","Millard Fillmore","Franklin Pierce","James Buchanan","Abraham Lincoln","Andrew Johnson",
@@ -18,11 +17,9 @@ public class MrPresident
     "1909-1913","1913-1921","1921-1923","1923-1929","1929-1933","1933-1945","1945-1953","1953-1961","1961-1963","1963-1969",
     "1969-1974","1974-1977","1977-1981","1981-1989","1989-1993","1993-2001","2001-2009","2009-2017","2017-Present"};
 
-  public static void main(String[] args)
-  {
+  public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-    while (true)
-    {
+    while (true) {
       System.out.print("Enter a number between 1 and 44: ");
       int i = scanner.nextInt();
       if (i == 0)
