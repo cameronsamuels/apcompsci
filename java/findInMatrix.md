@@ -19,7 +19,6 @@ public static int findInMatrix(String[][] matrix, String str) {
 <br>The string to search for &mdash; `str` as `String`
 
 **Return value**
-<br>With parameters `matrix = {{"Hello","World"},{"Hello","Earth"},{"Hello","World"}}; str = "World"`
 ```
-2
+findInMatrix([["Hello", "World"], ["Hello", "Earth"], ["Hello", "World"]], "World") → 2
 ```
