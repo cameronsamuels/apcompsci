@@ -10,14 +10,13 @@ public static int findWord(String[] words, String word) {
 ```
 
 **Purpose**
-<br>This method returns the index of a given word in a given array, or if the word is not found, `-1`
+<br>This method returns the index of a given word in a given array, or -1 if the word is not found
 
 **Method parameters**
 <br>The words to look through &mdash; `words` as `String[]`
 <br>The word to look for &mdash; `word` as `String`
 
 **Return value**
-<br>With parameters `words = new String[]{"Hello","World","!!"}; word = "World"`
 ```
-1
+findWord(["Hello", "World", "!!"], "World") → 1
 ```
