@@ -18,7 +18,6 @@ public static String[] sortDescending(String[] array) {
 <br>Array to sort &mdash; `array` as `String[]`
 
 **Return value**
-<br>With parameters `array = new String[]{"Hello","World","!!","hello","world"}`
 ```
-{"world","hello","World","Hello","!!"}
+sortDescending(["Hello", "World", "!!", "hello", "world"]) → ["world", "hello", "World", "Hello", "!!"]
 ```
