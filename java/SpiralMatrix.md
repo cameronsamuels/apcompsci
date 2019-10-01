@@ -5,7 +5,7 @@ public class SpiralMatrix {
   
   int[][] mat;
   
-  public Spiral(int num) {
+  public SpiralMatrix(int num) {
     mat = new int[num][num];
     int r = 0, c = 0, z = num - 1; //row, column, depth
     char d = 'D'; //direction
@@ -20,21 +20,13 @@ public class SpiralMatrix {
         if (++c == z) d = 'U';
       }
       else if (d == 'U') {
-        // if (--r == num - z - 1) d = 'L';
-        if (r > num - z - 1) r--;
-        else {
-          c--;
+        if (--r == num - z - 1) {
           d = 'L';
           z--;
         }
       }
       else if (d == 'L') {
-        // if (--c == num - z - 1) d = 'D';
-        if (c > num - z - 1) c--;
-        else {
-          r++;
-          d = 'D';
-        }
+        if (--c == num - z - 1) d = 'D';
       }
     }
   }
